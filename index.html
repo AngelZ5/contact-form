@@ -57,6 +57,14 @@
         background-color: #007b5e;
         border-color: #007b5e;
       }
+
+      #successAlert {
+        position: absolute;
+        top: 0px; /* Ajuste a altura conforme necessário */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 400px; /* Ajuste a largura conforme necessário */
+      }
     </style>
   </head>
   <body>
@@ -138,6 +146,11 @@
 
         <button type="submit" class="btn btn-primary btn-block">Submit</button>
       </form>
+    </div>
+
+    <div id="successAlert" class="alert alert-success mt-3 d-none" role="alert">
+      <h4 class="alert-heading">Message Sent!</h4>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
     </div>
 
     <script
