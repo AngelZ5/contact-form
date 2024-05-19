@@ -40,3 +40,4 @@ auto.press("tab")
 auto.press("space")
 
 print("Test performed, everything is working correctly.")
+time.sleep(5)
